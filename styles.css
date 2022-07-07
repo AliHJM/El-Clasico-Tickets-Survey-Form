@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+main{
+    font-family: 'Lato',  Arial, Helvetica, sans-serif;
+color: #000;
+line-height: 1.6px;
+background-color:#d7dcdd;
+width:500px;
+
+}

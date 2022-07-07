@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El Clasico Tickets </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <header> 
+    <h1 id="title">Spain El Clasico Tickets Purchase</h1>
+  </header>
+  <body>
+    <p id="description">
+      Fill in the survey to order a ticket to Spain's El Clasico match
+    </p>
+    <main>
+    <form id="survey-form">
+<section>
+      <fieldset class="main-info">
+<legend> <h3> Main Info </h3> </legend>
+      <label for="name" id="name-label">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter your full name"
+        
+        required
+      />
+      <br><br><br><br>
+
+      <label for="email" id="email-label">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your email"
+        
+        required
+      />
+      <br><br>
+      <br><br>
+
+      <label for="age" id="age-label">Age</label>
+      <input
+        type="number"
+        name="age"
+        id="age"
+        placeholder="Enter your age"
+        min="14"
+        
+        required
+      />
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <label for="number" id="number-label">Tickets</label>
+      <input
+        type="number"
+        name="number"
+        id="number"
+        min="1"
+        max="5"
+        placeholder="1"
+        required
+        />
+      </fieldset>
+    </section>
+ 
+      <br />
+      <br />
+      <section>
+      <fieldset class="seat">
+        <legend> <h3> Select your favorite seat preference </h3> </legend>
+      <label for="dropdown" id="dropdown">Select your side :</label>
+      <select name="dropdown" id="dropdown">
+        <option value="standard">Standard</option>
+        <option value="vip-premium">VIP Premium</option>
+        <option value="players-exclusive">Players Exclusive</option>
+        
+      </select>
+    </fieldset>
+  </section>
+      <br />
+      <br />
+      <section>
+<fieldset class="support">
+  <legend> <h3> Which side do you support? </h3></Which></legend>
+  <label>
+    <input type="radio" name="team" value="FCB" >Barcelona FC
+  </label>
+    <label><input type="radio" name="team" value="RMC" >Real Madrid
+    </label>
+
+</fieldset>
+</section>
+<section>
+    <fieldset class="MOTM"> 
+      <legend>
+   <h3>
+   In your opinion who will nail the Man of the match award?</label>
+  </h3> </legend>
+
+<input type="checkbox" id="checkbox" name="Players" value="Ansu-Fati">
+<label for="checkbox">Ansu Fati</label>
+<br>
+<input type="checkbox" id="checkbox" name="Players" value="Vinicus-Jr">
+<label for="checkbox">Vinicus Jr</label>
+<br>
+<input type="checkbox" id="checkbox" name="Players" value="Karim-Benzema">
+<label for="checkbox">Karim Benzema</label>
+<br>
+<input type="checkbox" id="checkbox" name="Players" value="Pedri">
+<label for="checkbox">Pedri</label>
+<br>
+<input type="checkbox" id="checkbox" name="Players" value="Ronald-Araujo">
+<label for="checkbox">Ronald Araujo</label>
+<br>
+<input type="checkbox" id="checkbox" name="Players" value="Thibaut-Courtois">
+<label for="checkbox">Thibaut Courtois</label>
+</fieldset>
+</section>
+<section>
+<fieldset class="Comments">
+  <legend> <h3 >Give us your thoughts about the game </h3> </legend>
+  <label id="textarea"> Additional Comments</label>
+<textarea name="textarea" id="textarea" cols="15" rows="1"></textarea>
+
+</fieldset>
+</section>
+</main>
+<br>
+<input type="submit" value="Submit" id="submit">
+     
+    
+      </form>
+  </body>
+</html>
